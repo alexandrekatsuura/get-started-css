@@ -342,7 +342,7 @@ div {
 ```
 
 ## Exemplo layout (grid)
-> um layout em grade. A propriedade grid-template-columns define colunas com larguras iguais usando repeat(3, 1fr). A propriedade grid-gap define um espaçamento de pixels entre as células da grade.
+> Aplica um layout em grade. A propriedade grid-template-columns define colunas com larguras iguais usando repeat(3, 1fr). A propriedade grid-gap define um espaçamento de pixels entre as células da grade.
 ```
 .container {
     display: grid;
@@ -351,3 +351,60 @@ div {
 }
 ```
 
+## Exemplo pesponsividade (max-width)
+> Aplica uma largura máxima de 100%, permitindo que ele se ajuste ao tamanho da janela do navegador. 
+```
+.container {
+    max-width: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+```
+
+## Exemplo pesponsividade (media)
+> Aplica condicional quando a largura da tela for igual ou superior a 768 pixels, o layout é alterado para uma linha usando flex-direction: row.
+```
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar {
+    order: 2;
+}
+
+.main-content {
+    order: 1;
+}
+
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+    }
+
+    .sidebar {
+        order: 1;
+    }
+
+    .main-content {
+        order: 2;
+    }
+}
+```
+
+## Exemplo pesponsividade (font-size)
+> Aplica condicional quando a largura da tela for igual ou inferior a 480 pixels, o tamanho da fonte é reduzido para 14 pixels, tornando-o mais adequado para telas menores.
+```
+p {
+    font-size: 16px;
+}
+
+@media (max-width: 480px) {
+    p {
+        font-size: 14px;
+    }
+}
+```
