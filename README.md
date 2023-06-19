@@ -8,3 +8,107 @@
 
 ## Descrição
 > CSS é uma linguagem de estilo utilizada para controlar a aparência e o layout dos elementos em um documento HTML
+
+## Pré-requisitos
+Antes de começar, verifique se você atendeu aos seguintes requisitos:
+* Conhecimento básico em HTML
+
+## Conceitos importantes
+### Seletores
+> Os seletores CSS são usados para selecionar elementos HTML aos quais você deseja aplicar estilos.
+
+### Propriedades e valores
+> As propriedades CSS são usadas para definir os estilos que você deseja aplicar a um elemento selecionado. Cada propriedade tem um valor associado que define como o estilo deve ser aplicado.
+
+### Box model
+> O modelo de caixa é um conceito fundamental no CSS que descreve como os elementos HTML são renderizados como caixas retangulares.
+
+### Posicionamento
+> O posicionamento no CSS determina como os elementos são dispostos em relação a outros elementos na página.
+
+### Layout
+> O CSS oferece várias técnicas de layout para controlar o posicionamento e a organização dos elementos em uma página.
+
+### Responsividade
+> O design responsivo é a prática de criar layouts que se adaptam a diferentes tamanhos de tela e dispositivos.
+
+### Transições e animações
+> O CSS permite animar elementos e aplicar transições suaves entre diferentes estados.
+
+## Modo de utilização
+* Incorporando CSS em um arquivo HTML
+* Usando um atributo style diretamente em um elemento HTML
+* Usando um arquivo separado .css
+
+## Exemplo incorporando CSS em um arquivo HTML
+```
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>Exemplo incorporando css</title>
+    <style>
+        /* Regras CSS aqui */
+        h1 {
+            color: blue;
+            font-size: 24px;
+        }
+        
+        p {
+            color: red;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Parágrafo de exemplo.</p>
+</body>
+</html>
+```
+
+## Exemplo usando um atributo style diretamente em um elemento HTML
+```
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>Style em elemento</title>
+</head>
+<body>
+    <h1 style="color: blue; font-size: 24px;">Título</h1>
+    <p style="color: red; font-size: 16px;">Parágrafo de exemplo.</p>
+</body>
+</html>
+```
+
+## Exemplo usando um arquivo separado .css
+* .css
+```
+/* estilos.css */
+
+/* Estilizando o título */
+h1 {
+    color: blue;
+    font-size: 24px;
+}
+
+/* Estilizando parágrafos */
+p {
+    color: red;
+    font-size: 16px;
+}
+```
+
+* .html
+```
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>Arquivo separado .css</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Parágrafo de exemplo.</p>
+</body>
+</html>
+```
