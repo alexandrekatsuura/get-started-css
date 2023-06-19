@@ -222,4 +222,48 @@ div {
 }
 ```
 
+## Exemplo box model (width e height)
+> Aplica largura 200px e altura 150px
+```
+div {
+    width: 200px;
+    height: 150px;
+}
+```
+
+## Exemplo box model (padding e background-color)
+> Aplica preenchimento interno de 20px e cor de fundo cinza claro
+```
+div {
+    padding: 20px;
+    background-color: lightgray;
+}
+```
+
+## Exemplo box model (border)
+> Aplica borda preta de 1px solida
+```
+div {
+    border: 1px solid black;
+}
+```
+
+## Exemplo box model (margin)
+> Aplica margen de 10px
+```
+div {
+    margin: 10px;
+}
+```
+
+## Exemplo box model (box-sizing)
+> Faz com que seja considerado a borda no cálculo da largura e altura, em vez de ser adicionado aos valores especificados para width e height
+```
+div {
+    box-sizing: border-box;
+}
+```
+
+
+
 
