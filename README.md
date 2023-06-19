@@ -6,12 +6,14 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/alexandrekatsuura/get-started-css?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/alexandrekatsuura/get-started-css?style=for-the-badge)
 
+[get-started-html]: https://github.com/alexandrekatsuura/get-started-html
+
 ## Descrição
 > CSS é uma linguagem de estilo utilizada para controlar a aparência e o layout dos elementos em um documento HTML
 
 ## Pré-requisitos
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
-* Conhecimento básico em HTML
+* Conhecimento básico em HTML [get-started-html][get-started-html] **|** 
 
 ## Conceitos importantes
 ### Seletores
