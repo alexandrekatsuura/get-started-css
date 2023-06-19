@@ -1,0 +1,13 @@
+/* estilos.css */
+
+/* Estilizando o título */
+h1 {
+    color: blue;
+    font-size: 24px;
+}
+
+/* Estilizando parágrafos */
+p {
+    color: red;
+    font-size: 16px;
+}
