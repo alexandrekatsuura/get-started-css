@@ -1,0 +1,53 @@
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.box-rotate {
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.box-fade-in {
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    animation-name: fade-in;
+    animation-duration: 1s;
+}
+
+@keyframes move {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(100px);
+    }
+}
+
+.box-move {
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
