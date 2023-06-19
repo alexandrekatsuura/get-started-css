@@ -13,7 +13,7 @@
 
 ## Pré-requisitos
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
-* Conhecimento básico em HTML [get-started-html][get-started-html] **|** 
+* Conhecimento básico em HTML (Conheça em [get-started-html][get-started-html])
 
 ## Conceitos importantes
 ### Seletores
