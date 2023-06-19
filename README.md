@@ -314,9 +314,40 @@ div {
 }
 ```
 
+## Exemplo layout (float)
+> Será exibido elementos que flutuam usando float.
+```
+.container {
+    width: 800px;
+}
 
+.box {
+    float: left;
+    width: 200px;
+    margin-right: 20px;
+}
+```
 
+## Exemplo layout (flexbox)
+> Aplica um layout flexível. A propriedade justify-content: space-between distribui as .box igualmente com espaçamento entre elas. Cada .box tem a propriedade flex: 1, que faz com que elas ocupem quantidades iguais de espaço disponível.
+```
+.container {
+    display: flex;
+    justify-content: space-between;
+}
 
+.box {
+    flex: 1;
+}
+```
 
-
+## Exemplo layout (grid)
+> um layout em grade. A propriedade grid-template-columns define colunas com larguras iguais usando repeat(3, 1fr). A propriedade grid-gap define um espaçamento de pixels entre as células da grade.
+```
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+```
 
