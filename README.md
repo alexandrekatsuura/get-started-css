@@ -266,6 +266,57 @@ div {
 }
 ```
 
+## Exemplo posicionamento (static)
+> Aplica o posicionamento estático. Seguirá o fluxo normal do documento.
+```
+div {
+    position: static;
+}
+```
+
+## Exemplo posicionamento (relative)
+> Aplica o posicionamento relativo. As propriedades top e left são usadas para mover o elemento em relação à sua posição normal.
+```
+div {
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+```
+
+## Exemplo posicionamento (absolute)
+> Aplica o posicionamento absoluto. Ele será posicionado em relação ao ancestral posicionado mais próximo.
+```
+div {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+```
+
+## Exemplo posicionamento (absolute)
+> Aplica o posicionamento fixo. Ele será posicionado em relação à janela de visualização do navegador e permanecerá fixo mesmo quando a página é rolada.
+```
+div {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+```
+
+## Exemplo posicionamento (grid)
+> Será exibida como um layout em grade usando o CSS Grid. A propriedade grid-template-columns define colunas com larguras iguais, e grid-gap define o espaçamento de pixels entre as células da grade.
+```
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+```
+
+
+
+
 
 
 
