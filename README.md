@@ -112,3 +112,50 @@ p {
 </body>
 </html>
 ```
+
+## Exemplo seletores (elemento)
+> Aplica em todos os elementos `<p>`
+```
+p {
+    color: blue;
+    font-size: 16px;
+}
+```
+
+## Exemplo seletores (classe)
+> Aplica em todos elementos que possuem a classe `div-yellow`
+```
+.div-yellow {
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+}
+```
+
+## Exemplo seletores (ID)
+> Aplica no elemento que possui o id `container-id`
+```
+#container-id {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+```
+
+## Exemplo seletores (descendente)
+> Aplica no elemento `<p>` dentro de um elemento `<div>`
+```
+div p {
+    font-size: 16px;
+}
+```
+
+## Exemplo seletores (atributo)
+> Aplica em todos os links com `href` igual a "https://www.exemplo.com"
+```
+a[href="https://www.exemplo.com"] {
+    color: green;
+}
+```
+
+
