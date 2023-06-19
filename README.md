@@ -166,6 +166,60 @@ a:hover {
 }
 ```
 
+## Exemplo propriedades e valores (color)
+> Aplica cor de texto do elemento como azul
+```
+h1 {
+    color: blue;
+}
+```
 
+## Exemplo propriedades e valores (font-size)
+> Aplica tamanho de texto do elemento como 16px
+```
+p {
+    font-size: 16px;
+}
+```
+
+## Exemplo propriedades e valores (background-color)
+> Aplica cor de fundo como amarelo
+```
+div {
+    background-color: yellow;
+}
+```
+
+## Exemplo propriedades e valores (width)
+> Aplica a largura do elemento como 300px
+```
+img {
+    width: 300px;
+}
+```
+
+## Exemplo propriedades e valores (margin)
+> Aplica margem de 10px
+```
+p {
+    margin: 10px;
+}
+```
+
+## Exemplo propriedades e valores (padding)
+> Aplica um preenchimento interno de 20px
+```
+div {
+    padding: 20px;
+}
+```
+
+## Exemplo propriedades e valores (border)
+> Aplica uma borda solida de 1px
+```
+div {
+    border: 1px solid black;
+}
+```
 
 
