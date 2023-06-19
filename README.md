@@ -351,7 +351,7 @@ div {
 }
 ```
 
-## Exemplo pesponsividade (max-width)
+## Exemplo responsividade (max-width)
 > Aplica uma largura máxima de 100%, permitindo que ele se ajuste ao tamanho da janela do navegador. 
 ```
 .container {
@@ -364,7 +364,7 @@ img {
 }
 ```
 
-## Exemplo pesponsividade (media)
+## Exemplo responsividade (media)
 > Aplica condicional quando a largura da tela for igual ou superior a 768 pixels, o layout é alterado para uma linha usando flex-direction: row.
 ```
 .container {
@@ -395,7 +395,7 @@ img {
 }
 ```
 
-## Exemplo pesponsividade (font-size)
+## Exemplo responsividade (font-size)
 > Aplica condicional quando a largura da tela for igual ou inferior a 480 pixels, o tamanho da fonte é reduzido para 14 pixels, tornando-o mais adequado para telas menores.
 ```
 p {
@@ -406,5 +406,62 @@ p {
     p {
         font-size: 14px;
     }
+}
+```
+
+## Exemplo animação (rotate)
+> Especifica que o elemento deve girar de 0 graus a 360 graus ao longo do tempo.
+```
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.box {
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+```
+
+## Exemplo animação (fade-in)
+> Especifica que deve começar com uma opacidade de 0 e termina com uma opacidade de 1.
+```
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.box {
+    animation-name: fade-in;
+    animation-duration: 1s;
+}
+```
+
+## Exemplo animação (fade-in)
+> Aplica mover o elemento horizontalmente usando a propriedade translateX().
+```
+@keyframes move {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(100px);
+    }
+}
+
+.box {
+    animation-name: move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 ```
