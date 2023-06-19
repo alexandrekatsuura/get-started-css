@@ -160,6 +160,7 @@ a[href="https://www.exemplo.com"] {
 
 ## Exemplo seletores (pseudo-classe)
 > Aplica quando um link `<a>` é hovered (mouse sobre ele)
+```
 a:hover {
     text-decoration: underline;
 }
