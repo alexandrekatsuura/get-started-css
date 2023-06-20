@@ -294,7 +294,7 @@ div {
 }
 ```
 
-## Exemplo posicionamento (absolute)
+## Exemplo posicionamento (fixed)
 > Aplica o posicionamento fixo. Ele será posicionado em relação à janela de visualização do navegador e permanecerá fixo mesmo quando a página é rolada.
 ```
 div {
@@ -446,7 +446,7 @@ p {
 }
 ```
 
-## Exemplo animação (fade-in)
+## Exemplo animação (move)
 > Aplica mover o elemento horizontalmente usando a propriedade translateX().
 ```
 @keyframes move {
